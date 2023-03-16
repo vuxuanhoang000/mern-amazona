@@ -1,0 +1,16 @@
+GET http://localhost:5000/api/seed
+###
+POST http://localhost:5000/api/users/signin
+Content-Type: application/json
+
+{
+    "email":{
+        "value":"dfshj"
+    },
+    "password":"123456"
+}
+###
+GET http://localhost:3000/images/p1.jpg
+
+###
+GET https://shiroutowiki.work/actress/%e7%a5%9e%e6%9c%a8%e9%ba%97/
